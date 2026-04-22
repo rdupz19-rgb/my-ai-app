@@ -17,7 +17,7 @@ def main():
     response = requests.get("https://api.github.com")
     print(f"✅ GitHub API status: {response.status_code}")
 
-    #print("Hello from my-ai-app!")
+    print("Hello from my-ai-app!")
 
 
 if __name__ == "__main__":
